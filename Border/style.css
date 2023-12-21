@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+.content {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.content .blue {
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+}
+.content .red {
+  width: 100%;
+  height: 30px;
+  background-color: red;
+}
+.content .orange {
+  width: 100%;
+  height: 30px;
+  background-color: orange;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.item .red {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  margin-bottom: 10px;
+}
+.item .blue {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  margin-bottom: 10px;
+}

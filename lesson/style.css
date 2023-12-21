@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.container {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blue {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: blue;
+}
+.red {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: red;
+}
+.orange {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: orange;
+}
+.wrapper {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+}
+.wrapper .red {
+    width: 400px;
+    height: 100px;
+    background-color: red;
+}
+.wrapper .blue {
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+}
+.item {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0 40px;
+    font-family: 'Archivo', sans-serif;
+    background-color: aquamarine;
+}
+.item h1, h2, h3, h4, h5 {
+    line-height: 200%;
+    font-size: 30px;
+    color: #000;
+    font-style: normal;
+    font-family: Archivo;
+}

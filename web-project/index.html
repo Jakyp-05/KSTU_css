@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Menu Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <div class="burger-menu" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+
+<main>
+  <div class="main-text">
+      <h1>Уважаемый,Алексей Алексевич</h1>
+      <p>Приглашаем вас на <br>день рождения Чынгыза Айтматова</p>
+      <p>Дата и место прихождение: 12.12.2023 Актовой зал </p>
+  </div>
+</main>
+
+<script>
+    function toggleMenu() {
+        var burgerMenu = document.querySelector('.burger-menu');
+        burgerMenu.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
